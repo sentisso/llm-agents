@@ -1,6 +1,9 @@
 # LangX AI agents
-This repo contains some LangGraph AI agents that I implemented in order to learn the LangX framework:
+This repository contains some rather simple LLM agents that I implemented in order to learn the [LangChain](https://python.langchain.com/docs/introduction/) and [LangGraph](https://langchain-ai.github.io/langgraph/) frameworks:
 - `src/calculator.ipynb`
-  - an AI agent capable of calculating simple math calculations, while making use of `+`/`-`/`/`/`*` math operations implemented as tools
-  - capable of error recovery
+  - LangGraph agent capable of calculating simple math calculations
+  - makes use of `+`/`-`/`/`/`*` math operations as tools
+  - capable of recovery from erroneous tool use
   - has persistent short-term memory stored in a Postgres database
+
+_(by LangX I mean both LangChain/LangGraph)_
