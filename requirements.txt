@@ -1,0 +1,6 @@
+langchain[google-genai]
+langgraph
+langgraph-cli[inmem]
+langgraph-checkpoint-postgres
+psycopg[binary,pool]
+python-dotenv
