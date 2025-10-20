@@ -2,5 +2,10 @@ langchain[google-genai]
 langgraph
 langgraph-cli[inmem]
 langgraph-checkpoint-postgres
+langchain-community
+llama-index
+spacy
+beautifulsoup4
+pypdf
 psycopg[binary,pool]
 python-dotenv
